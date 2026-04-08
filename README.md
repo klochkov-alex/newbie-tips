@@ -23,3 +23,10 @@ Local repo is done. Now push it to GitHub:
 - `ssh -T git@github.com -i <path to your key>`
 - `git remote add origin git@github.com:<acc name>/<repo name>.git`
 - `git push -u origin main #-u stands for --set-upstream` 
+
+Полезная информация:
+1. HEAD — это ссылка на последний коммит;
+2. Логи коммитов можно посмотреть через git log (--online);
+3. Сообщения к комитам должны быть краткими, но информативными;
+4. Подробнее о сообщениях к комитам можно почитать тут: https://www.conventionalcommits.org/ru/v1.0.0-beta.4/#спецификация
+5. 
